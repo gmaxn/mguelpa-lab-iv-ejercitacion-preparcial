@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopNavComponent implements OnInit {
 
+  public logged: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
