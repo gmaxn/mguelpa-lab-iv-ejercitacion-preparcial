@@ -1,0 +1,55 @@
+<style>
+    :host {
+        display: block;
+        text-align: center;
+    }
+
+    #form-wrapper {
+        display: inline-flex;
+        flex-direction: column;
+        border: 1px solid grey;
+        background-color: rgb(30, 30, 30);
+        padding: 10px;
+        border-radius: 15px;
+        justify-content: center;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    #title {
+        font-family: Arial, Helvetica, sans-serif, consolas, 'Courier New', Courier, monospace;
+        font-size: x-large;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    #principal-wrapper {
+        border: 1px solid rgb(30,30,30);
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: inline-flex;
+        flex-direction: row;
+        width: 400px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        background-color: rgb(30, 30, 30);
+    }
+
+    #principal-wrapper>input[type="email"] {
+        margin-top: 5px;
+    }
+</style>
+
+
+<div id="form-wrapper">
+    <p id="title">Ingresa a tu cuenta</p>
+
+    <div id="principal-wrapper">
+        <input class="form-control" style="width:48%" type="text" name="" id="" placeholder="Usuario">
+        <input class="form-control" style="width:48%" type="text" name="" id="" placeholder="Contraseña">
+    </div>
+
+    <a class="btn btn-primary">Submit</a>
+</div>
