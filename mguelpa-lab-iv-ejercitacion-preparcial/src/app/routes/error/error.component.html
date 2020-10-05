@@ -1,0 +1,34 @@
+<style>
+    :host {
+        display: block;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-family: Consolas, 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        font-size: x-large;
+        margin-top: 10px;
+    }
+
+    #gif-wrapper {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    #gif-wrapper>img {
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+</style>
+
+<p>Something went wrong..</p>
+
+
+<div id="gif-wrapper">
+    <img src="./../../../assets/images/error.gif" alt="">
+
+    <a routerLink="/home" class="btn btn-primary">Return to a safer place!</a>
+</div>
