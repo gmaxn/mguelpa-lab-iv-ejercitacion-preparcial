@@ -13,9 +13,9 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.0.14",
+    "@angular/cli": "~10.0.8",
     "@angular/common": "~10.0.14",
     "@angular/compiler": "~10.0.14",
-    "@angular/cli": "~10.0.8",
     "@angular/compiler-cli": "~10.0.14",
     "@angular/core": "~10.0.14",
     "@angular/forms": "~10.0.14",
@@ -27,6 +27,7 @@
     "express": "^4.17.1",
     "jquery": "^3.5.1",
     "path": "^0.12.7",
+    "popper.js": "^1.16.1",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "typescript": "~3.9.5",
